@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Poppins:ital,wght@0,300;1,200&family=Public+Sans:wght@300;400;500;600;700&family=Ysabeau:wght@200;300;400;500;600;700&display=swap');
+
+/* !!ADMIN CSS!! */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100px;
+    background: linear-gradient(to right, #ebf8faa6, #8fb4fafa), url('../image/store-front.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav {
+    width: 70px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.747);
+    transition: width .5s;
+    position: fixed;    
+    box-shadow: 1px 0px 3px #edeff2;
+    float: left;
+    overflow: hidden;
+    transition-duration: 0.1s;
+    z-index: 1;
+}
+
+.nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 115px;
+    padding-left: 1px;
+    width: 90%;
+}
+
+.nav a {
+    padding-left: 72px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 37px;
+}
+
+.nav li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav ul li p{
+    display: none;
+}
+
+.nav:hover {
+    width: 300px;
+}
+
+.nav:hover ul li p{
+    display: inline-block;
+    position:fixed;
+}
+
+.nav span{
+    display: none;
+    
+}
+
+.nav:hover span{
+    display: inline-block;
+    position: fixed;
+    margin-top: 23px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav i {
+    padding-left: 7px;
+    position: fixed;
+    font-size: 25px;
+    color: #2D1255;
+}
+
+.nav img {
+    width: 36px;
+    margin: 5px;
+    width: 42px;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.nav img:hover{
+    left: 200px;
+}
+
+.logo h3 {
+    font-size: 20px;
+    padding-left: 122.5px;
+    padding-top: 10px;   
+    text-transform: uppercase;
+}
+
+
+
+.nav li:hover {
+    background-color: rgb(167, 198, 255);
+    padding-right: 325px;
+}
+
+.last {
+    position: relative;
+    top: 200px;
+}
+
+.container {
+    display: flex;
+}
+
+.main-content {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+
+@media only screen and (max-width: 900px) and (min-width: 300px) {
+    .red {
+        background-color: red;
+        width: 10cm;
+        height: 70em;
+        position: relative;
+        right: 50px;
+    }
+}
+
+/* Dashboard Page */
+
+.welcome-message {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.welcome-message h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+/*Place Order Page*/
+
+.ordermenu{
+    padding: 0;
+    margin: 0;
+}
+
+.waterbottle{
+    background-color: #0077ff8e;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 60px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.waterbottle img{
+    padding: 25px;
+}
+
+.waterbottle p{
+    margin-top: -10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;   
+}
+
+.contact-form{
+    margin-top: 30px;
+    margin-left: 320px;
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    padding: 50px 0px;
+    background-color: rgba(245, 245, 245, 0.658);
+    border-radius: 1%;
+    text-align: center;
+    width: 50%;
+}
+
+.form-group{
+    margin-top: -20px;
+    color: #0064B2;
+}
+
+.form-group h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.orderbody{
+    padding: 0px;
+    margin: 0px;
+}
+
+.orderInputsContainer{
+    margin: 25px;
+    left: 0;
+}
+
+.orderInputsContainer input{
+    width: 100%;
+    font-size: 20px;
+}
+
+.orderInputsContainer ::placeholder{
+    margin-left: 250px;
+}
+
+.quansel{
+    position: relative;
+    left: 0px;
+}
+
+.orderType{
+    text-align: left;
+    font-size: 18px;
+    color: #767676;
+    font-family: 'Titillium Web', sans-serif;
+    width: 595px;
+}
+
+.orderType option{
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.form-border label{ 
+    padding-right: 346px;
+}
+
+.form-border p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.form-border ::placeholder{
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.form-border input{
+    font-size: small;
+    padding: 5px 10px;
+}
+
+.orderbutton{
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.orderbutton button{
+    font-size: 30px;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #0064B2;
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    border-radius: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 5px;
+    transition: .5s;
+    background: white;
+}
+
+.orderbutton:hover button{
+    background: #0064B2;
+    color: white;
+    transition: .3s;
+    transform-origin:bottom;
+}
+
+/*Order Details CSS*/
+
+.orderD-header h1{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 4px;
+  color: #0064B2;
+  font-size: 45px;
+  text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table td, table th {
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+table tr:nth-child(odd) {
+  background-color: #D7E6F3;
+}
+
+table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0064B2;
+    color: white;
+    text-align: center;
+}
+
+.order-table table{
+    border-radius: 10px;
+  overflow: hidden;
+}
+
+/*Profile CSS*/
+
+.account-header{
+    background-color: #4063bbb9;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.user-image {
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.user-image h2 {
+    display: inline-block;
+    margin-left: 150px;
+    color: #fff;
+    justify-content: center;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 4px;
+}
+
+.account-body {
+    margin-left: 500px;
+}
+
+.account-forms{
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 65%;
+}
+
+.account-forms label{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: #2D1255;
+}
+
+.account-forms input{
+    border: 1px solid #ffffff00
+}
+
+.account-button {
+    text-align: right;
+    margin-right: 370px;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 23px;
+    transition: 1s;
+}
+
+.button-design{
+    padding: 0px 10px;
+    margin-left: -95px;
+    color: #4062BB;
+    background-color: #fff;
+    border: 1px solid #ffffff00;
+    margin-right: 113px;
+}
+
+.button-design:hover{
+    transition: .5s;
+    color: #fff;
+    background-color: #4062BB;
+}
+

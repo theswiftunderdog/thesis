@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #2866da85, #1c52b685) , url('../image/store-front.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.loginheader{
+    text-align: center;
+    margin-bottom: 125px;
+    background-color: rgba(0, 119, 255, 0.479);
+}
+
+.loginheader img{
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.loginheader p{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.loginheader p::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: rgb(0, 183, 255);
+    margin: 0 auto;
+}
+
+.loginbody form{
+    margin: 0 auto;
+    width: 300px;
+    background:rgba(0, 102, 255, 0.61);
+    padding: 75px;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+.loginInputsContainer{
+    margin-top: 25px;
+}
+
+.loginInputsContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.loginInputsContainer input{
+    height: 30px;
+    width: 100%;
+    border: 2px solid rgb(0, 89, 255);
+    text-align: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+       
+}
+
+.loginInputsContainer ::placeholder{
+    font-style: italic;
+}
+
+.loginbutton{
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.loginbutton button{
+    font-size: 25px;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: .5s;
+    background: rgba(0, 102, 255, 0.582);
+}
+
+.loginbutton:hover button{
+    background: #fff;
+    color: rgb(0, 102, 255);
+    transition: .3s;
+    transform-origin:bottom;
+    border: 2px solid rgb(0, 102, 255);
+}
+
+#errorMessage{
+    background: #ffffff88;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    padding: 11px;
+}
+
+#portalreturn{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#portalreturn a{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+#portalreturn:hover a{
+    transition: .3s;
+}
+
+
+/*Portal Choosing CSS*/
+
+.choosePortal{
+    display: flex;
+}
+
+.adminPort{
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(0, 102, 255, 0.61);
+    padding: 100px 20px;
+    width: 15%;
+    margin: auto;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    left: 50px;
+}
+
+.adminPort img{
+    display: inline-block;
+    margin-top: -70px;
+}
+
+.adminButton{
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+.adminButton button{
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(0, 102, 255, 0.61);
+    transition: .5s;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.adminButton:hover button{
+    transition: .3s;
+    background-color: #fff;
+    color: rgb(0, 102, 255);
+    border: 2px solid rgb(0, 102, 255);
+}
+
+.customerPort{
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(0, 102, 255, 0.61);
+    padding: 97px 20px;
+    width: 15%;
+    margin: auto;
+    margin-left: -500px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.customerPort img{
+    display: inline-block;
+    margin-top: -70px;
+}
+
+.indexrtn-button{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.indexrtn-button button{
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(0, 102, 255, 0.61);
+    transition: .5s;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.indexrtn-button:hover button{
+    border: 2px solid rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
+    background-color: #fff;
+    transition: .3s;
+}
+
